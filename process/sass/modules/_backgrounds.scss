@@ -37,3 +37,10 @@
    );
 }
 
+.bridge {
+   @include backImage(
+       '../images/bridge.jpg',
+       600px, top center
+   );
+}
+
